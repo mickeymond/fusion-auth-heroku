@@ -1,0 +1,27 @@
+{
+  "name": "Fusion Auth Server",
+  "description": "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes.",
+  "logo": "https://fusionauth.io/assets/img/logo-white.svg",
+  "keywords": [
+    "database",
+    "api",
+    "auth",
+    "heroku",
+    "postgres",
+    "fusion"
+  ],
+  "success_url": "/",
+  "website": "https://fusionauth.io",
+  "repository": "https://github.com/mickeymond/fusion-auth-heroku",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
