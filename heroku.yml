@@ -1,5 +1,6 @@
 build: 
   docker:
     web: Dockerfile
-    config:
-      PORT: 9011
+setup:
+  config:
+    PORT: 9011
