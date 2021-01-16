@@ -1,5 +1,5 @@
 build: 
   docker:
     web: Dockerfile
-server:
-  port: $PORT
+    config:
+      PORT: 9011
