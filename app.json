@@ -13,6 +13,20 @@
   "success_url": "/",
   "website": "https://fusionauth.io",
   "repository": "https://github.com/mickeymond/fusion-auth-heroku",
+  "env": {
+    "DATABASE_URL": {
+      "description": "Set External Database URL",
+      "value": "jdbc:postgresql://<host>:<port>/<database>"
+    },
+    "DATABASE_USERNAME": {
+      "description": "Set Database Username",
+      "value": "<database_username>"
+    },
+    "DATABASE_PASSWORD": {
+      "description": "Set Database Password",
+      "value": "<database_password>"
+    }
+  },
   "formation": {
     "web": {
       "quantity": 1
